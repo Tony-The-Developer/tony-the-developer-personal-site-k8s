@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -35,6 +34,16 @@
     <title>Tony The Developer</title>
 
     <!-- Styles -->
+<style>
+    video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+    </style>
     <link href="https://static.tonythedeveloper.com/static/themes/tonythedeveloper/css/style.css" rel="stylesheet" media="screen">
 </head>
 <body class="body-full-page">
@@ -118,7 +127,11 @@
 <div class="pagepiling">
     <div data-anchor="intro" class="pp-scrollable text-white section section-1">
         <div class="scroll-wrap">
-            <div class="section-bg" style="background-image:url(https://static.tonythedeveloper.com/static/themes/tonythedeveloper/images/bg/bg1.jpg);"></div>
+            <div class="section-bg">
+                    <video playsinline="" autoplay="" muted="" loop="" poster="https://static.tonythedeveloper.com/static/themes/tonythedeveloper/images/bg/bg1.jpg" id="bgvid">
+  <source src="https://static.tonythedeveloper.com/static/themes/tonythedeveloper/bg.mp4" type="video/mp4">
+</video>
+            </div>
             <div class="scrollable-content">
                 <div class="vertical-centred">
                     <div class="boxed boxed-inner">
